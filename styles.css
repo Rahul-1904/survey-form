@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("b2image");
+    background-repeat: no-repeat;
+    background-size: auto;
+    font-family: sans-serif;
+    text-align: center;
+   
+}
+
+#survey-form{
+  padding: 5%;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    background-color:lightblue;
+    text-align: left;
+}
+input{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 0px;
+    margin-bottom: 25px;
+}
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.dropdown{
+    width: 103%;
+    display: block;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 0px;
+    margin-bottom: 10px;
+    
+}
+.gender{
+    width: 15px;
+    height: 15px;
+    margin-left: 0;
+    display: inline-block;
+    width: auto;
+}
+.gender-label{
+    display: inline-block;
+}
+#comments-label{
+    margin-top: 20px;
+}
+textarea{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 7px;
+    border: 0px;
+    margin-bottom: 25px;
+}
+#submit{
+ background-color: #0296ff;
+ font-size: 20px;
+ color: white;
+}
